@@ -1,0 +1,31 @@
+
+  /* Estilos CSS para la barra de navegación */
+  .navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ccc;
+  }
